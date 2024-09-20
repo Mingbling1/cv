@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Merriweather } from "next/font/google";
 import "./globals.css";
@@ -32,6 +33,7 @@ export default function RootLayout({
                     enableSystem
                     disableTransitionOnChange>
                     {children}
+                    <Analytics mode={"production"} />;
                 </ThemeProvider>
             </body>
         </html>
