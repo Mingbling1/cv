@@ -1,5 +1,5 @@
 "use client";
-import { getResumeData } from "@/app/(main)/_data/resume-data";
+import { getResumeData } from "@/app/_data/resume-data";
 import { Button } from "@/components/ui/button";
 import {
     Avatar,
@@ -212,7 +212,7 @@ export default function ProfessionalPage() {
                                                 edu
                                                     .electives
                                                     .length >
-                                                    0 && (
+                                                0 && (
                                                     <p className="text-xs text-muted-foreground">
                                                         Electivos:{" "}
                                                         {edu.electives.join(

@@ -2,7 +2,7 @@ import { AdelantaLogo } from "@/assets/logos";
 import {
     GitHubIcon,
     LinkedInIcon,
-} from "@/app/(main)/_icons";
+} from "@/app/_icons";
 
 export const RESUME_DATA_ES = {
     name: "Jimmy Auris Castillejos",

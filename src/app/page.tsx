@@ -13,7 +13,7 @@ import {
     AvatarFallback,
     AvatarImage,
 } from "@/components/ui/avatar";
-import { getResumeData } from "@/app/(main)/_data/resume-data";
+import { getResumeData } from "@/app/_data/resume-data";
 import { LanguageDropdown } from "@/components/language-dropdown";
 import { ModeToggle } from "@/components/mode-toogle";
 import { BrainCircuit, FileText } from "lucide-react";
