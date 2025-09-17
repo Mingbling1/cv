@@ -2,23 +2,18 @@ import createMiddleware from "next-intl/middleware";
 import { locales } from "./lib/i18n";
 
 export default createMiddleware({
+    // A list of all locales that are supported
     locales,
+
+    // Used when no locale matches
     defaultLocale: "en",
-    // No locale detection from pathname
-    localeDetection: false,
-    // Don't redirect based on locale
+
+    // Don't use locales in URLs
     localePrefix: "never",
 });
 
 export const config = {
-    matcher: [
-        /*
-         * Matcher estándar para Next.js middleware
-         * Ejecuta en todas las rutas excepto archivos estáticos y assets
-         * Excluye también las fuentes de Google en /public/fonts/
-         */
-        "/((?!_next/static|_next/image|favicon.ico|fonts/.*|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ttf|woff|woff2|eot|otf)$).*)",
-        "/",
-        "/(api|trpc)(.*)",
-    ],
+    // Match only pages that need internationalization
+    // Exclude static files, Next.js internals, and fonts
+    matcher: ["/((?!api|_next|favicon|fonts).*)"],
 };
