@@ -11,6 +11,13 @@ export default createMiddleware({
 });
 
 export const config = {
-    // Skip all paths that should not be internationalized
-    matcher: ["/((?!api|_next|.*\\..*).*)"],
+    matcher: [
+        /*
+         * Matcher estándar para Next.js middleware
+         * Ejecuta en todas las rutas excepto archivos estáticos y assets
+         */
+        "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)",
+        "/",
+        "/(api|trpc)(.*)",
+    ],
 };
