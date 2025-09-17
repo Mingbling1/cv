@@ -1,0 +1,66 @@
+{
+    "common": {
+        "name": "Jimmy Auris Castillejos",
+        "about": "Economist with solid practice in technology applied to finance: I automate processes, design APIs and deploy cloud infrastructures to convert operational problems into digital products that improve decision-making.",
+        "summary": "I have a hybrid profile (financial analysis + development/architecture) — I'm passionate about materializing ideas into scalable solutions, optimizing costs and time, and translating it into quantifiable results for the company.",
+        "location": "Lima, Peru",
+        "email": "jimmy.auris@outlook.com",
+        "phone": "+51924357862"
+    },
+    "navigation": {
+        "professional": "Professional",
+        "showcase": "Showcase",
+        "print": "Print",
+        "theme": "Theme"
+    },
+    "landingPage": {
+        "professionalCard": {
+            "title": "Professional",
+            "description": "Clean, corporate design optimized for ATS systems and traditional recruiters",
+            "buttonText": "View Professional CV",
+            "tags": {
+                "atsFriendly": "ATS-Friendly",
+                "printable": "Printable",
+                "corporate": "Corporate"
+            }
+        },
+        "showcaseCard": {
+            "title": "Portfolio",
+            "description": "Interactive, modern portfolio showcasing technical skills and creativity",
+            "buttonText": "View Interactive Portfolio",
+            "tags": {
+                "interactive": "Interactive",
+                "modern": "Modern",
+                "comingSoon": "Coming Soon"
+            }
+        },
+        "choosePresentation": "Choose the presentation that best fits your needs",
+        "quickInfo": {
+            "downloadable": "Downloadable PDF",
+            "realTime": "Real-time updates"
+        }
+    },
+    "sections": {
+        "about": "About",
+        "experience": "Experience",
+        "education": "Education",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "work": {
+        "present": "Present",
+        "remote": "Remote"
+    },
+    "education": {
+        "degree": "Economics and International Business",
+        "electives": "Python ML"
+    },
+    "projects": {
+        "sideProject": "Side Project",
+        "saasOcr": {
+            "title": "SAAS OCR",
+            "description": "Creation of a SAAS as a personal project for automating invoice structuring with OCR."
+        }
+    }
+}
