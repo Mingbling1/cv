@@ -8,7 +8,7 @@ export type Locale = (typeof locales)[number];
 export default getRequestConfig(async () => {
     // Get locale from cookie or default to 'en'
     const store = await cookies();
-    const locale = store.get("locale")?.value || "en";
+    const locale = store.get("NEXT_LOCALE")?.value || "en";
 
     return {
         locale,
