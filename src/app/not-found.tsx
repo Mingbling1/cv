@@ -58,14 +58,14 @@ export default function NotFound() {
                         </CardHeader>
                         <CardContent className="text-center space-y-6">
                             <p className="text-muted-foreground leading-relaxed">
-                                {t("errors.pageNotFound.description") || 
-                                "Lo siento, la página que estás buscando no existe o ha sido movida."}
+                                {t("errors.pageNotFound.description") ||
+                                    "Lo siento, la página que estás buscando no existe o ha sido movida."}
                             </p>
-                            
+
                             {/* Action buttons */}
                             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
                                 <Link href="/">
-                                    <Button 
+                                    <Button
                                         className="w-full sm:w-auto bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white shadow-lg hover:shadow-xl transition-all duration-300"
                                         size="lg"
                                     >
@@ -73,10 +73,10 @@ export default function NotFound() {
                                         {t("navigation.home") || "Inicio"}
                                     </Button>
                                 </Link>
-                                
+
                                 <Link href="/professional">
-                                    <Button 
-                                        variant="outline" 
+                                    <Button
+                                        variant="outline"
                                         className="w-full sm:w-auto border-2 hover:bg-primary/10 transition-all duration-300"
                                         size="lg"
                                     >
@@ -93,8 +93,8 @@ export default function NotFound() {
                                 </p>
                                 <div className="flex flex-wrap justify-center gap-2">
                                     <Link href="/showcase">
-                                        <Button 
-                                            variant="ghost" 
+                                        <Button
+                                            variant="ghost"
                                             size="sm"
                                             className="text-xs hover:bg-purple-500/10 hover:text-purple-600 dark:hover:text-purple-400"
                                         >
