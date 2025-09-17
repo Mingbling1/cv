@@ -242,12 +242,12 @@ export default function Page() {
                         Skills
                     </h2>
                     <div className="flex flex-wrap gap-1">
-                        {Object.entries(RESUME_DATA.skills).map(([, skills]) =>
+                        {Object.entries(RESUME_DATA.skills).map(([category, skills]) =>
                             skills.map((skill) => (
                                 <Badge
                                     variant="secondary"
                                     className="print:text-[10px]"
-                                    key={skill}>
+                                    key={`${category}-${skill}`}>
                                     {skill}
                                 </Badge>
                             ))
@@ -283,10 +283,10 @@ export default function Page() {
                                         }
                                         link={
                                             "link" in
-                                            project
+                                                project
                                                 ? project
-                                                      .link
-                                                      .href
+                                                    .link
+                                                    .href
                                                 : undefined
                                         }
                                     />
