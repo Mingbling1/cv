@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
-import { Locale } from "@/i18n";
+import { Locale } from "@/lib/i18n";
 
 export function useLanguageSwitch() {
     const router = useRouter();
