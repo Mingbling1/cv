@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-/* Faustina Font Face Definitions */
 @font-face {
     font-family: "Asap";
     src: url("/fonts/Asap/Asap-VariableFont_wdth,wght.ttf")
