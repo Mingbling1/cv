@@ -24,9 +24,7 @@ export default async function RootLayout({
     const messages = await getMessages();
 
     return (
-        <html
-            lang="en"
-            suppressHydrationWarning>
+        <html lang="en" suppressHydrationWarning>
             <body
                 className="antialiased relative flex min-h-[100dvh] md:min-h-screen flex-col"
                 style={{
