@@ -8,6 +8,7 @@
         "phone": "+51924357862"
     },
     "navigation": {
+        "home": "Inicio",
         "professional": "Profesional",
         "showcase": "Portafolio",
         "print": "Imprimir",
@@ -61,6 +62,13 @@
         "saasOcr": {
             "title": "SAAS OCR",
             "description": "Creación de un SAAS como proyecto personal para automatización de estructuración de facturas con OCR."
+        }
+    },
+    "errors": {
+        "pageNotFound": {
+            "title": "Página no encontrada",
+            "description": "Lo siento, la página que estás buscando no existe o ha sido movida.",
+            "suggestions": "También puedes visitar:"
         }
     }
 }

@@ -1,3 +1,4 @@
+// Fixed routing structure - moved routes from (main) group to direct app folder
 import type { Metadata } from "next";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
