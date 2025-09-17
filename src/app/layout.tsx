@@ -8,6 +8,11 @@ import { getMessages } from "next-intl/server";
 export const metadata: Metadata = {
     title: "jimmyauris",
     description: "Brief CV of Jimmy Auris",
+    icons: {
+        icon: [
+            { url: "/favicon.svg", type: "image/svg+xml" },
+        ],
+    },
 };
 
 export default async function RootLayout({
