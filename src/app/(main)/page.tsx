@@ -242,16 +242,16 @@ export default function Page() {
                         Skills
                     </h2>
                     <div className="flex flex-wrap gap-1">
-                        {RESUME_DATA.skills.map((skill) => {
-                            return (
+                        {Object.entries(RESUME_DATA.skills).map(([, skills]) =>
+                            skills.map((skill) => (
                                 <Badge
                                     variant="secondary"
                                     className="print:text-[10px]"
                                     key={skill}>
                                     {skill}
                                 </Badge>
-                            );
-                        })}
+                            ))
+                        )}
                     </div>
                 </Section>
 
